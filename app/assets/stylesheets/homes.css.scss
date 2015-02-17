@@ -1,160 +1,178 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Raleway:200);
 @import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+/* line 5, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+body {
+  background: seashell;
+}
 
-body{
-  background:SeaShell ; 
-}
 /* title/////// */
-.colortitle{
-  color:#DB8086;
+/* line 9, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.colortitle {
+  color: #DB8086;
 }
-.title{
+
+/* line 12, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.title {
   font-family: 'Lily Script One', cursive;
   color: MediumAquaMarine;
-  font-size:42px;
-  text-align:center;
+  font-size: 42px;
+  text-align: center;
 }
-/* iphone ///// */
 
-.iphone{
-  width:290px;
-  height:500px;
-  background-color:#141414;
-  border-radius:30px;
-  position:relative;
-  margin:0 auto;
+/* iphone ///// */
+/* line 20, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.iphone {
+  width: 290px;
+  height: 500px;
+  background-color: #141414;
+  border-radius: 30px;
+  position: relative;
+  margin: 0 auto;
 }
+
 /*screen & button */
-.button{
+/* line 29, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.button {
   border-radius: 50%;
   width: 40px;
-  height: 40px; 
-  position:absolute;
-  background:Linen;
-  margin-top:430px;
-  margin-left:125px;
-  
+  height: 40px;
+  position: absolute;
+  background: Linen;
+  margin-top: 430px;
+  margin-left: 125px;
 }
-.screen{
-  width:250px;
-  height:360px;
-  background:#F7F7F7;
-  margin-top:50px;
-  margin-right:20px;
-  margin-left:20px;
-  position:absolute;
+
+/* line 39, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.screen {
+  width: 250px;
+  height: 360px;
+  background: #F7F7F7;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  position: absolute;
 }
+
 /* header */
-
-.header{
-  width:250px;
-  height:40px;
-  background:MediumAquaMarine;
-  position:absolute;
-  text-align:center;
-  box-shadow:0px 3px #419376;
-  
+/* line 50, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.header {
+  width: 250px;
+  height: 40px;
+  background: MediumAquaMarine;
+  position: absolute;
+  text-align: center;
+  box-shadow: 0px 3px #419376;
 }
 
-.header h1{
-  margin:10px;
-  color:white;
+/* line 60, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.header h1 {
+  margin: 10px;
+  color: white;
   font-family: 'Raleway', sans-serif;
-  font-weight:normal;
-  font-size:18px;
+  font-weight: normal;
+  font-size: 18px;
 }
+
 /* header */
-
-
 /* icones ////////// */
-.carre{
-  height:2px;
-  width:15px;
-  background:white;
-  position:absolute;
-  margin-left:220px;
-  margin-top:12px;
+/* line 71, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.carre {
+  height: 2px;
+  width: 15px;
+  background: white;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 12px;
 }
-.carre1{
-  height:2px;
-  width:15px;
-  background:white;
-  position:absolute;
-  margin-left:220px;
-  margin-top:16px;
+
+/* line 79, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.carre1 {
+  height: 2px;
+  width: 15px;
+  background: white;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 16px;
 }
-.carre2{
-  height:2px;
-  width:15px;
-  background:white;
-  position:absolute;
-  margin-left:220px;
-  margin-top:20px;
+
+/* line 87, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.carre2 {
+  height: 2px;
+  width: 15px;
+  background: white;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 20px;
 }
-.home{
-  position:absolute;
-  margin-top:-40px;
+
+/* line 95, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.home {
+  position: absolute;
+  margin-top: -40px;
 }
-.circle{
+
+/* line 99, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.circle {
   border-radius: 50%;
   width: 10px;
-  height: 10px; 
-  background:MediumAquaMarine;
-  position:absolute;
-  border:2px solid white;
-  
+  height: 10px;
+  background: MediumAquaMarine;
+  position: absolute;
+  border: 2px solid white;
 }
 
-.baton{
-  width:8px;
-  height:2px;
-   background:white;
-  margin:15px 13px;
-  transform:rotate(45deg); 
-  position:absolute;
-}
-.loupe{
-  position:absolute;
-  margin-top:-33px;
-  margin-left:13px;
+/* line 109, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.baton {
+  width: 8px;
+  height: 2px;
+  background: white;
+  margin: 15px 13px;
+  transform: rotate(45deg);
+  position: absolute;
 }
 
-
-
-
-
-
+/* line 117, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.loupe {
+  position: absolute;
+  margin-top: -33px;
+  margin-left: 13px;
 }
 
 /* image couverture */
-
-.picture, img{
-  position:absolute;
+/* line 125, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.picture, img {
+  position: absolute;
 }
 
-.profile, .ho{
-  width:250px;
-  height:130px;
-  position:absolute;  
-  box-shadow:0px 3px MediumAquaMarine;
-  
+/* line 129, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.profile, .ho {
+  width: 250px;
+  height: 130px;
+  position: absolute;
+  box-shadow: 0px 3px MediumAquaMarine;
 }
-.profile, .ha{
-  width:250px;
-  height:130px;
-  position:absolute;  
-  box-shadow:0px 3px MediumAquaMarine;
+
+/* line 136, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.profile, .ha {
+  width: 250px;
+  height: 130px;
+  position: absolute;
+  box-shadow: 0px 3px MediumAquaMarine;
 }
+
+/* line 142, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
 .transit {
-  position:absolute;
-  height:250px;
-  width:130px;
-  margin:0 auto;
+  position: absolute;
+  height: 250px;
+  width: 130px;
+  margin: 0 auto;
 }
+
+/* line 148, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
 .transit img {
-  position:absolute;
-  left:0;
+  position: absolute;
+  left: 0;
   -webkit-transition: opacity 4s ease-in-out;
   -moz-transition: opacity 4s ease-in-out;
   -o-transition: opacity 4s ease-in-out;
@@ -162,99 +180,113 @@ body{
 }
 
 @keyframes cf3FadeInOut {
+  /* line 158, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
   0% {
-  opacity:1;
-}
-45% {
-opacity:1;
-}
-55% {
-opacity:0;
-}
-100% {
-opacity:0;
-}
+    opacity: 1;
+  }
+
+  /* line 161, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+  45% {
+    opacity: 1;
+  }
+
+  /* line 164, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+  55% {
+    opacity: 0;
+  }
+
+  /* line 167, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+  100% {
+    opacity: 0;
+  }
 }
 
+/* line 172, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
 .transit img.ho {
-animation-name: cf3FadeInOut;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 5s;
-animation-direction: alternate;
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
 }
-.profilrond{
+
+/* line 179, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.profilrond {
   border-radius: 50%;
   width: 102px;
-  height: 102px; 
-  position:absolute;
-  background:MediumAquaMarine;
-  margin-left:74px;
-  margin-top:68px;
-  box-shadow:0px 0px 5px grey;
-}
-.profille{
-  width:100px;
-  margin-left:75px;
-  margin-top:70px;
-  position:absolute;
+  height: 102px;
+  position: absolute;
+  background: MediumAquaMarine;
+  margin-left: 74px;
+  margin-top: 68px;
+  box-shadow: 0px 0px 5px grey;
 }
 
-.fondnom{
-  width:250px;
-  height:20px;
-  background:#EFEFEF;
-  position:absolute;
-  margin-top:175px;
-  text-align:center;
-  color:#C1C1C1;
-  position:absolute;
+/* line 189, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.profille {
+  width: 100px;
+  margin-left: 75px;
+  margin-top: 70px;
+  position: absolute;
 }
-.fondnom h1{
-    font-family: 'Montserrat', sans-serif;
-  font-weight:normal;
-  font-size:12px;
-  margin-top:2px;
-  
+
+/* line 196, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.fondnom {
+  width: 250px;
+  height: 20px;
+  background: #EFEFEF;
+  position: absolute;
+  margin-top: 175px;
+  text-align: center;
+  color: #C1C1C1;
+  position: absolute;
 }
-.description{
+
+/* line 206, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.fondnom h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+/* line 213, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
+.description {
   font-family: 'Raleway', sans-serif;
-  font-weight:normal;
-  font-size:12px;
-  margin-top:210px;
-  position:absolute;
-  color:#C1C1C1;
-  text-align:center;
-  
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 210px;
+  position: absolute;
+  color: #C1C1C1;
+  text-align: center;
 }
+
 /*navigation ///// */
+/* line 224, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
 #navigation {
-  width:250px;
-  position:absolute;
-  margin-top:260px;
+  width: 250px;
+  position: absolute;
+  margin-top: 260px;
   font-family: 'Raleway', sans-serif;
-  font-weight:normal;
-  list-style:none;
-  text-align:center;
-  font-size:14px;
+  font-weight: normal;
+  list-style: none;
+  text-align: center;
+  font-size: 14px;
   padding: 0;
- 
 }
+
+/* line 236, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
 #navigation li a {
-  background: MediumAquaMarine ;
-  color:#F7F7F7 ;
-  border-bottom: 6px solid #F7F7F7 ;
-  margin-bottom: 0px ;
-  display: block ;
+  background: mediumaquamarine;
+  color: #f7f7f7;
+  border-bottom: 6px solid #f7f7f7;
+  margin-bottom: 0px;
+  display: block;
   text-decoration: none;
-  
 }
+
+/* line 245, /Users/anuvismejia/Documents/workspace/saide/app/assets/stylesheets/homes.css.scss */
 #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
-  background: #DB8086 ;
+  background: #db8086;
   transition: background-color 0.3s linear;
 }
-
-
-
-
-
