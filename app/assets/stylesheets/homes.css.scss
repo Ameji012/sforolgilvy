@@ -1,39 +1,38 @@
-@font-face {
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/Anders.ttf');
-  font-family: test;
-}
+@import "compass/css3";
+@import url(http://fonts.googleapis.com/css?family=Raleway:700);
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
 }
 html,body {
-  font-size: 62.5%;
+  font-size: 30%;
   height: 100%;
   overflow: hidden;
+  font-family: 'Raleway', sans-serif;
 }
 .scene {
   position: relative;
   height: 100%;
   background: #1d1f20;
-  padding: 20rem;
-  text-align: center;
+  padding: 28rem;
+  text-align: left;
 }
 h1 {
   position: relative;
   font-size: 8rem;
   text-transform: uppercase;
-  font-family: test;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   z-index: 10;
 }
 .magic {
   z-index: 5;
   position: absolute;
-  top: calc(50% - 10rem);
-  left: calc(50% - 10rem);
-  width: 20rem;
-  height: 20rem;
-  background: url('http://i.imgur.com/IKkE57h.jpg') 50% 50% no-repeat fixed;
+  top: calc(48% - 10rem);
+  left: calc(48% - 10rem);
+  width: 30rem;
+  height: 30rem;
+  background: url('https://farm9.staticflickr.com/8585/16430151878_67b947db7e_o.jpg') 50% 50% no-repeat fixed;
   background-size: cover;
   border-radius: 50%;
 }
@@ -43,9 +42,9 @@ h1 {
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 2rem;
+  font-size: 5rem;
   color: #fff;
-  font-family: test;
+  font-family: 'Raleway', sans-serif;
   
   a {
     color: rgba(255,170,170,1);
